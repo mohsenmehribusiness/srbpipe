@@ -1,0 +1,39 @@
+
+.container-textimage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Bottom left text */
+.bottom-left-textimage {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+/* Top left text */
+.top-left-textimage {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+/* Top right text */
+.top-right-textimage {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+/* Bottom right text */
+.bottom-right-textimage {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+.centered-textimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hoaver-me:hover{
+    color:rgb(230,85,64);
+}
